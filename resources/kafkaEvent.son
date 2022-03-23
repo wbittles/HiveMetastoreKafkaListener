@@ -1,0 +1,146 @@
+{
+    "type": "DROP_TABLE",
+    "table": {
+        "tableName": "egeriatable99",
+        "dbName": "default",
+        "owner": "me",
+        "createTime": 1647960858,
+        "lastAccessTime": 1647960858,
+        "retention": 0,
+        "sd": {
+            "cols": [
+                {
+                    "name": "col100",
+                    "type": "int",
+                    "comment": "Billy's Fake Spark Col",
+                    "setName": true,
+                    "setType": true,
+                    "setComment": true
+                }
+            ],
+            "location": "file:/tmp",
+            "inputFormat": "input",
+            "outputFormat": "output",
+            "compressed": false,
+            "numBuckets": 17,
+            "serdeInfo": {
+                "name": "serde",
+                "serializationLib": "seriallib",
+                "parameters": {},
+                "description": null,
+                "serializerClass": null,
+                "deserializerClass": null,
+                "serdeType": null,
+                "setDescription": false,
+                "setName": true,
+                "setSerializerClass": false,
+                "setDeserializerClass": false,
+                "setSerdeType": false,
+                "parametersSize": 0,
+                "setParameters": true,
+                "setSerializationLib": true
+            },
+            "bucketCols": [
+                "bucketcol"
+            ],
+            "sortCols": [
+                {
+                    "col": "sortcol",
+                    "order": 1,
+                    "setCol": true,
+                    "setOrder": true
+                }
+            ],
+            "parameters": {
+                "key": "value"
+            },
+            "skewedInfo": {
+                "skewedColNames": [],
+                "skewedColValues": [],
+                "skewedColValueLocationMaps": {},
+                "setSkewedColNames": true,
+                "setSkewedColValues": true,
+                "setSkewedColValueLocationMaps": true,
+                "skewedColNamesSize": 0,
+                "skewedColNamesIterator": [],
+                "skewedColValuesSize": 0,
+                "skewedColValuesIterator": [],
+                "skewedColValueLocationMapsSize": 0
+            },
+            "storedAsSubDirectories": false,
+            "parametersSize": 1,
+            "setParameters": true,
+            "colsSize": 1,
+            "colsIterator": [
+                {
+                    "name": "col100",
+                    "type": "int",
+                    "comment": "Billy's Fake Spark Col",
+                    "setName": true,
+                    "setType": true,
+                    "setComment": true
+                }
+            ],
+            "setCols": true,
+            "setLocation": true,
+            "setInputFormat": true,
+            "setOutputFormat": true,
+            "setCompressed": true,
+            "setNumBuckets": true,
+            "setSerdeInfo": true,
+            "bucketColsSize": 1,
+            "bucketColsIterator": [
+                "bucketcol"
+            ],
+            "setBucketCols": true,
+            "sortColsSize": 1,
+            "sortColsIterator": [
+                {
+                    "col": "sortcol",
+                    "order": 1,
+                    "setCol": true,
+                    "setOrder": true
+                }
+            ],
+            "setSortCols": true,
+            "setSkewedInfo": true,
+            "setStoredAsSubDirectories": true
+        },
+        "partitionKeys": [],
+        "parameters": {
+            "totalSize": "0",
+            "numFiles": "0",
+            "transient_lastDdlTime": "1647960858",
+            "key": "value"
+        },
+        "viewOriginalText": null,
+        "viewExpandedText": null,
+        "tableType": "MANAGED_TABLE",
+        "privileges": null,
+        "temporary": false,
+        "rewriteEnabled": false,
+        "creationMetadata": null,
+        "catName": "hive",
+        "ownerType": "USER",
+        "setCatName": true,
+        "partitionKeysSize": 0,
+        "setDbName": true,
+        "setTableName": true,
+        "setOwner": true,
+        "setCreateTime": true,
+        "setLastAccessTime": true,
+        "setRetention": true,
+        "setSd": true,
+        "partitionKeysIterator": [],
+        "setPartitionKeys": true,
+        "parametersSize": 4,
+        "setParameters": true,
+        "setViewOriginalText": false,
+        "setViewExpandedText": false,
+        "setTableType": true,
+        "setPrivileges": false,
+        "setTemporary": false,
+        "setRewriteEnabled": true,
+        "setCreationMetadata": false,
+        "setOwnerType": true
+    }
